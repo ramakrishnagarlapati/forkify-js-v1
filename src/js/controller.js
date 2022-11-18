@@ -25,7 +25,7 @@ const controlRecipes = async () => {
   } catch (err) {
     recipeView.renderError();
   }
-  console.log(model.state.recipe);
+  // console.log(model.state.recipe);
 };
 
 const controlSearchResults = async () => {
@@ -106,3 +106,4 @@ const init = () => {
   addRecpieView.addHandleUpload(controlAddRecpie);
 };
 init();
+console.log('hello from controller.js');
